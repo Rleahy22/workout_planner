@@ -1,8 +1,19 @@
-<div class="signup">
-  <form action="/create_user" method="post">
-    <input type="text" name="user[name]" placeholder="Please enter a username">
-    <input type="password" name="user[password]" placeholder="Create a password">
-    <input type="submit" value="Won't you join us??"><br>
-  </form>
-  <a href="/">Back Home</a>
-</div>
+<div class="main">
+  <div class="signup">
+    <form id="signup" action="/create_user" method="post">
+      <input type="text" name="user[name]" placeholder="name">
+      <input type="text" name="user[email]" placeholder="email">
+      <label for="height">Height in Feet and Inches</label>
+      <input type="number" name="user[height_feet]">
+      <input type="number" name="user[height_feet]">
+      <input type="number" name="user[weight]" placeholder="weight">
+      <label for="goal">What is Your Primary Goal</label>
+      <input type="radio" name="goal" value="Lose Weight">Lose Weight<br>
+      <input type="radio" name="goal" value="Get Stronger">Get Stronger<br>
+      <input type="radio" name="goal" value="Build Muscle">Build Muscle<br>
+      <input type="radio" name="goal" value="Get Healthier">Get Healthier<br>
+      <input type="password" name="user[password]" placeholder="Create a password">
+      <input type="submit" value="Won't you join us??"><br>
+    </form>
+  </div>
+</body>

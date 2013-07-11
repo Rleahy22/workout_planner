@@ -64,7 +64,7 @@ img {
   font-family: "Gill Sans", sans-serif;
   font-size: 250%;
   text-decoration: none;
-  color: white;
+  color: #C6CCD3;
   font-weight: 800;
   text-shadow: 2px 2px black;
   text-align: center;
@@ -80,3 +80,16 @@ img {
   margin-left: 4%;
   width: 60%;
 }
+
+#signup {
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  background: #DBFFFF;
+  border: 2px solid gray;
+  border-radius: 5%;
+  opacity: .9;
+}
+
