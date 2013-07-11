@@ -1,13 +1,17 @@
 <div class="top">
-  <h1>Tyrannosaurus Flex</h1>
+  <h1 id="title">Tyrannosaurus Flex</h1>
 </div>
 
+<img src="/images/muscle_rex.png" alt="muscle_rex">
+
 <div class="main">
-  <h1>Build, Complete, and Track your Workouts</h1>
-  <a href="/signup">Sign Up Today</a>
-  <form action="/user" method="post">
-    <input type="text" name="email" placeholder="Enter Your Email">
-    <input type="password" name="password" placeholder="Password">
-    <input type="submit" value="Hit the weights, Bro!">
-  </form>
+  <h1 id="tagline">Build! Complete! and Track your Workouts</h1>
+  <div id="formbox">  
+    <a href="/signup" id="register">Sign Up!</a>
+    <form id="login" action="/user" method="post">
+      <input class="inputs" type="text" name="email" placeholder="Email">
+      <input class="inputs" type="password" name="password" placeholder="Password">
+      <input id="button" type="submit" value="Hit the weights, Bro!">
+    </form>
+  </div>
 </div>
