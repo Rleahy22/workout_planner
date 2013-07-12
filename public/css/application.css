@@ -70,6 +70,12 @@ img {
   text-align: center;
 }
 
+.main #below {
+  margin: 1% 1% 1% 9%;
+  width: 60%;
+  text-shadow: 2px 2px #708090;
+}
+
 .inputs{
   width: 30%;
   margin: 1%;
@@ -83,7 +89,7 @@ img {
 
 #signup {
   width: 30%;
-  height: 60%;
+  height: 65%;
   position: absolute;
   top: 5%;
   left: 5%;
@@ -93,3 +99,29 @@ img {
   opacity: .9;
 }
 
+#signup input {
+  margin: 1% 0 1% 2%;
+  float: left;
+  clear: both;
+}
+
+#signup label {
+  margin: 1% 0 1% 2%;
+  float: left;
+  clear: both;
+}
+
+#signup .option {
+  margin: 2%;
+  width: 40%;
+  float: left;
+  clear: both;
+}
+
+.option input {
+  float: left;
+}
+
+.option label {
+  float: left;
+}
